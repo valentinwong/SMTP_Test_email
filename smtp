@@ -1,0 +1,3 @@
+Set-RemoteMailbox "Name of user" -EmailAddresses @{add="username.test@opentable.com"}
+ 
+ex) Set-RemoteMailbox "Joe Sixpack" -EmailAddresses @{add="jsixpack.test@opentable.com"}
